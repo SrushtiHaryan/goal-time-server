@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
     cors({
-      origin: ["https://stunning-starlight-b010d2.netlify.app/"],
+      origin: ["https://coruscating-starburst-97b17a.netlify.app"],
       methods: ["GET", "POST", "DELETE","PATCH"],
       credentials: true,
       origin: true,
