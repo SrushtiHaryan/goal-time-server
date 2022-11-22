@@ -20,10 +20,23 @@ const oauth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, 'http://lo
 let ACCESS_TOKEN;
 
 
-app.use(cors());
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+app.use(
+    cors({
+      origin: ["https://stunning-starlight-b010d2.netlify.app/"],
+      methods: ["GET", "POST", "DELETE","PATCH"],
+      credentials: true,
+      origin: true,
+    })
+  );
+
+app.get('/', (req,res)=>{
+    res.json({message:'The server is running'});
+})
 
 const connectDb = () => {
     mongoose.connect(
