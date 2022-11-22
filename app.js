@@ -43,7 +43,7 @@ const connectDb = () => {
         "mongodb+srv://SH:SH2022@goaltimecluster.kfiaz6w.mongodb.net/test",
         { useNewUrlParser: true }
     );
-    console.log("Connected to the database  ");
+    console.log("Connected to the database qwert ");
 };
 
 connectDb();
