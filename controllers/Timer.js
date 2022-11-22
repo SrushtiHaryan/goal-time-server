@@ -23,10 +23,10 @@ constructor(){}
         let { startdate, enddate } = req;
 
         if (startdate < enddate) { 
-            return false; 
+            return true; 
         }
         else { 
-            return true; 
+            return false; 
         }
 
 
