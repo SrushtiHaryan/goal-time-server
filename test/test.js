@@ -62,13 +62,13 @@ describe('GoalTime Testing', () => {
     {
         titlepomo: "Walking",
         startdate: "2022-11-14",
-        enddate: "2022-11-03",
+        enddate: "2022-11-15",
         starttime: "11:",
-        durationPomo: 1,
+        durationPomo: 4,
         durationBreak: 2,
         numsession: 6,
         numrepetition: 2,
-        isGoog: false
+        isGoog: true
     }
 
 
