@@ -292,7 +292,7 @@ describe('GoalTime Testing', () => {
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfTWHYvPk2Q8NwG4nLcKb4YJ5N50zSY_1Szzkgu-Of3JKIpIXZJCvd5nQzdXztoFc8Sl8&usqp=CAU",
             isGoogle: true,
             pomoCo: 3,
-            pomoCr: 10,
+            pomoCr: 8,
             pomoF: 5
         }
 
